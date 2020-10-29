@@ -57,8 +57,8 @@ export default class About extends React.Component {
                     }
                     .loc{
                         
-                        height: 120px;
-                        width: 120px;
+                        height: 20%;
+                        width: 20%;
 
                     }
                     .detail {

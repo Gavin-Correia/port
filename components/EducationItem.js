@@ -2,7 +2,7 @@ import React from 'react'
 
 export default class EducationItem extends React.Component {
     render() {
-        let { color, name, time, gpa, major } = this.props
+        let { color, name, time, url, major } = this.props
         return (
             <div className="columns wrapper">
                 <div className="column item is-10 is-offset-1 is-6-desktop is-offset-3-desktop is-10-mobile is-offset-1-mobile">
@@ -14,10 +14,10 @@ export default class EducationItem extends React.Component {
                             </h4>
                             { major && <i>{major}</i> }
                         </div>
-                        {/* <div className="column is-3 has-text-right gpa">
-                            <p>GPA</p>
-                            <h4>{gpa}</h4>
-                        </div> */}
+                         <div className="column is-3 has-text-right gpa">
+                            
+                            <a href={url}>learn more</a>
+                        </div> 
                     </div>
                 </div>
                 
