@@ -1,5 +1,6 @@
 {
   "name": "resume",
+  "homepage": "https://thehardwareguy2000.github.io/port",
   "version": "1.0.0",
   "description": "Resume website with NextJS",
   "main": "index.js",
